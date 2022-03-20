@@ -1,0 +1,58 @@
+<head>
+  <title>Login</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+    rel="stylesheet"
+  />
+  <link href="/styles.css" rel="stylesheet" />
+</head>
+
+<body>
+  <section class="container">
+    <form class="form">
+      <h1 class="title">Faça seu login</h1>
+
+      <div class="box">
+        <label class="label-field" for="name-field">E-mail</label>
+        <input
+          type="text"
+          placeholder="Digite seu e-mail"
+          class="field-input"
+          required
+        />
+      </div>
+
+      <div class="box">
+        <label class="label-field" for="name-field">Senha</label>
+        <input
+          type="password"
+          placeholder="Crie uma senha"
+          class="field-input"
+          required
+        />
+      </div>
+
+      <div class="double-box">
+        <div class="terms space-between">
+          <input type="checkbox" class="checkbox-field" />
+          <p>Matenha-se conectado</p>
+        </div>
+        <div class="space-between">
+          <p>
+            <a href="#">Esqueci minha senha</a>
+          </p>
+        </div>
+      </div>
+
+      <button class="button">Entrar</button>
+
+      <p class="account">
+        Ainda não tem uma conta?
+        <a href="../index.html">Cadastre-se</a>
+      </p>
+    </form>
+  </section>
+</body>
