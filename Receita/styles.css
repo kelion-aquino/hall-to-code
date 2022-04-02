@@ -1,15 +1,18 @@
 body {
   background-color: #F0F0F0;
+  padding: 24px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .box {
   background-color: #ffffff;
-  border-radius: 5px;
+  border-radius: 5px; 
+  width: 798px;
   padding: 20px;
   box-sizing: border-box;
-  margin: 0 auto;
 }
 
 .title {
@@ -26,9 +29,8 @@ body {
 }
 
 .image {
-  width: 745px;
-  height: 389px;
-  margin-top: 14px ;
+  margin-top: 14px;
+  width: 100%;
 }
 
 .info-box {
@@ -45,7 +47,31 @@ body {
     font-size: 14px;
 }
 
-.member-box {
+.icon {
+  width: 20px;
+}
+
+.info-text {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #61656D;
+  text-transform: uppercase;
+}
+
+.info-strong-text {
+  margin-top: 6px;
+  font-size: 14px;
+  color: #ff6a28;
+  text-transform: uppercase;
+}
+
+.info-wrapper {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.owner-box {
   width: 238px;
   height: 85px;
   background-color: #F0F0F0;
@@ -53,27 +79,80 @@ body {
 
   display: flex;
   justify-content: center;
-  justify-content: space-around;
   align-items: center;
-  
 }
 
-.info-member-box {
+.owner-image {
+  width: 60px;
+  height: 60px;
+}
+
+.owner-info-wrapper {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
+  margin-left: 11px;
 }
 
-.info-strong-text {
+.owner-name {
+  font-weight: 700;
+  font-size: 14px;
   color: #ff6a28;
 }
 
-.icon-image {
-  margin-bottom: 5px;
+.owner-info {
+  font-size: 14px;
+  color: #61656D;
 }
 
-.info-row {
+.ingredients-box {
+  margin-top: 37px;
+}
+
+.title-wrapper {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.icon-title {
+  margin-left: 8px;
+}
+
+.list {
+  list-style-position: inside;
+  margin-top: 12px;
+}
+
+.list-item {
+  margin-bottom: 10px;
+  color: #61656D;
+}
+.preparation-box {
+  margin-top: 16px;
+}
+
+.preparation-item {
+  margin-bottom: 20px;
+}
+
+.add-info-box {
+  margin-top: 16px;
+}
+
+.secundary-title {
+  background-color: #F0F0F0;
+  padding: 8px 0;
+  text-transform: uppercase;
+  text-align: center;
+  color: #61656D;
+}
+
+.add-info-text {
+  margin-top: 16px;
+}
+
+.add-info-text p {
+  color: #61656D;
+  font-size: 14px;
 }

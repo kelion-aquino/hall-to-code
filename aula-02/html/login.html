@@ -11,40 +11,38 @@
 </head>
 
 <body>
-  <section class="container">
+  <section class="container-login">
     <form class="form">
       <h1 class="title">Faça seu login</h1>
 
       <div class="box">
-        <label class="label-field" for="name-field">E-mail</label>
+        <label class="label-field" for="email-field">E-mail</label>
         <input
-          type="text"
+          type="email"
           placeholder="Digite seu e-mail"
+          id="email-field"
           class="field-input"
           required
         />
       </div>
 
       <div class="box">
-        <label class="label-field" for="name-field">Senha</label>
+        <label class="label-field" for="password-field">Senha</label>
         <input
           type="password"
           placeholder="Crie uma senha"
+          id="password-field"
           class="field-input"
           required
         />
       </div>
 
-      <div class="double-box">
-        <div class="terms space-between">
+      <div class="double-box account">
+        <div>
           <input type="checkbox" class="checkbox-field" />
-          <p>Matenha-se conectado</p>
+          <span>Matenha-me conectado</span>
         </div>
-        <div class="space-between">
-          <p>
-            <a href="#">Esqueci minha senha</a>
-          </p>
-        </div>
+        <a href="#">Esqueci minha senha</a>
       </div>
 
       <button class="button">Entrar</button>
